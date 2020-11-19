@@ -13,6 +13,7 @@ import { TextInput, TextInputProps } from 'react-native'
 export type TextInputMaskTypeProp =
     | 'credit-card'
     | 'cpf'
+    | 'cpf-cnpj'
     | 'cnpj'
     | 'zip-code'
     | 'only-numbers'
