@@ -1,7 +1,7 @@
 import { CpfCnpjMask } from '../../lib/masks'
 
 test('getType results cpf_cnpj', () => {
-    var expected = 'cpf_cnpj'
+    var expected = 'cpf-cnpj'
     var received = CpfCnpjMask.getType()
 
     expect(received).toBe(expected)
