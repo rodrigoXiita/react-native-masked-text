@@ -20,6 +20,7 @@ export type TextInputMaskTypeProp =
     | 'money'
     | 'cel-phone'
     | 'datetime'
+    | 'account'
     | 'custom'
 
 // Option prop of TextInputMask.
